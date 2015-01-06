@@ -1,4 +1,4 @@
-redmine_prototype_js
-====================
+Redmine Prototype-JS Plugin 
+===========================
 
-A plugin to add the prototype library to redmine for plugins to use
+A plugin to add the prototype and scriptaculous javascript libraries to redmine for plugins to use. 
