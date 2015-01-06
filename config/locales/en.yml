@@ -1,0 +1,7 @@
+# English strings go here for Rails i18n
+en:
+  rmprotojs_enable_control: "Scriptaculous: Control"
+  rmprotojs_enable_dragdrop: "Scriptaculous: Drag&Drop"
+  rmprotojs_enable_control: "Scriptaculous: Effects"
+  rmprotojs_enable_prototype: "Prototype.JS"
+  rmprotojs_enable_prototype_ujs: "Prototype UJS"
