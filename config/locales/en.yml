@@ -1,6 +1,6 @@
 # English strings go here for Rails i18n
 en:
-  en.including_external_libraries: "Check to enable loading of the libraries"
+  including_external_libraries: "Check to enable loading of the libraries"
   rmprotojs_enable_control: "Scriptaculous: Control"
   rmprotojs_enable_dragdrop: "Scriptaculous: Drag&Drop"
   rmprotojs_enable_control: "Scriptaculous: Effects"
