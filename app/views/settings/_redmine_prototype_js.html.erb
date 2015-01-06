@@ -1,0 +1,34 @@
+<% settings = @settings.is_a?(Hash) ? @settings : {} %>
+
+<h3><%= l(:including_external_libraries) %></h3>
+
+<div style="overflow: hidden">
+  <label style="margin-left: 0px; width: auto; font-weight: normal;">
+    <%=check_box_tag 'settings[rmprotojs_enable_control]', true, settings['rmprotojs_enable_control'] %>
+    &mdash; <%= l(:rmprotojs_enable_control) %>
+  </label>
+</div>
+<div style="overflow: hidden">
+  <label style="margin-left: 0px; width: auto; font-weight: normal;">
+    <%=check_box_tag 'settings[rmprotojs_enable_dragdrop]', true, settings['rmprotojs_enable_dragdrop'] %>
+    &mdash; <%=l(:rmprotojs_enable_dragdrop) %>
+  </label>
+</div>
+<div style="overflow: hidden">
+  <label style="margin-left: 0px; width: auto; font-weight: normal;">
+    <%=check_box_tag 'settings[rmprotojs_enable_effects]', true, settings['rmprotojs_enable_effects'] %>
+    &mdash; <%=l(:rmprotojs_enable_effects) %>
+  </label>
+</div>
+<div style="overflow: hidden">
+  <label style="margin-left: 0px; width: auto; font-weight: normal;">
+    <%=check_box_tag 'settings[rmprotojs_enable_prototype]', true, settings['rmprotojs_enable_prototype'] %>
+    &mdash; <%=l(:rmprotojs_enable_prototype) %>
+  </label>
+</div>
+<div style="overflow: hidden">
+  <label style="margin-left: 0px; width: auto; font-weight: normal; padding-left: 40px;">
+    <%=check_box_tag 'settings[rmprotojs_enable_prototype_ujs]', true, settings['rmprotojs_enable_prototype_ujs'] %>
+    &mdash; <%=l(:rmprotojs_enable_prototype_ujs).html_safe %>
+  </label>
+</div>
